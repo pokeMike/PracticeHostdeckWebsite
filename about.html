@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostdec | Web Hosting made easier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="navbar__container container">
+            <div class="navbar__logo">
+                <a href=""><img src="/images/logo.png" alt="Hostdec"></a>
+            </div>
+            <div class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <li class="navbar__menu-item">
+                        <a href="index.html" class="navbar__menu-link home">Home</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="about.html" class="navbar__menu-link">About</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link">Services <i class="fa-solid fa-chevron-down fa-s"></i></a>
+                        <ul class="navbar__submenu">
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Services</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Service Details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link">Pages <i class="fa-solid fa-chevron-down fa-s"></i></a>
+                        <ul class="navbar__submenu">
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">FAQs</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Pricing</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Team</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Testimonials</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Blog</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Single Post</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">404 Page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__btn">
+                <button class="navbar__btn-contactUs btn">Contact Us</button>
+            </div>
+            <!-- Mobile Menu & Hamburger Icon -->
+            <div class="navbar__mobile-menu">
+                <div class="navbar__mobile-menu-toggle">
+                    <i class="fas fa-bars fa-2x"></i>
+                </div>
+                <div class="navbar__mobile-overlay"></div>
+                <div class="navbar__mobile-menu-items">
+                    <div class="navbar__mobile-menu-logo"><img src="/images/logo.png
+                        " alt="Hostdec">
+                        <div class="navbar__close-btn">
+                            <i class="fa-solid fa-xmark fa-s"></i>
+                        </div>
+                    </div>
+                    <ul class="navbar__mobile-menu-list">
+                        <li class="navbar__mobile-menu-item">
+                            <a href="index.html" class="navbar__menu-link">Home</a>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#" class="navbar__menu-link">About</a>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#" class="navbar__menu-link">Services <i
+                                    class="fa-solid fa-chevron-down fa-s"></i></a>
+                            <ul class="navbar__submenu">
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Services</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Service Details</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#" class="navbar__menu-link">Pages <i
+                                    class="fa-solid fa-chevron-down fa-s"></i></a>
+                            <ul class="navbar__submenu">
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">FAQs</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Pricing</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Team</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Testimonials</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Blog</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Single Post</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">404 Page</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#" class="navbar__menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="fullpage">
+        <!--Hero-aboutus-->
+        <section class="aboutus">
+            <div class="aboutus__background-overlay"></div>
+            <div class="aboutus__container">
+                <div class="aboutus__container-main">
+                    <div class="aboutus-container">
+                        <div class="aboutus-title">
+                            <div class="aboutus-title-main">
+                                <h2>About Us</h2>
+                            </div>
+                        </div>
+                        <div class="aboutus-content">
+                            <div class="aboutus-content-main">
+                                <ul>
+                                    <li class="aboutus-list"><a href="index.html"><span
+                                                class="aboutus-list-text">Home</span></a></li>
+                                    <li class="aboutus-list"><a href="index.html"><span class="aboutus-list-icon"><i
+                                                    aria-hidden="true"
+                                                    class="fas fa-chevron-circle-right"></i></span><span
+                                                class="aboutus-list-text">About</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About-->
+        <section class="About">
+            <div class="about__container">
+                <div class="about__container-image">
+                    <div class="about-image-bg">
+                        <div class="about-image-main">
+                            <img class="about-image-bg-main"
+                                src="/images/emotional-arab-guy-using-new-modern-laptop.png" alt="Guy jumping">
+                            <img class="about-image-bg-bg" src="/images/bgcircle.png" alt="bg-circle">
+                        </div>
+                        <div class="about-image-tag1">
+                            <div class="about-image-tag">
+                                <div class="about-image-iconbox">
+                                    <i class="fa-solid fa-database"></i>
+                                </div>
+                                <div class="about-image-tag-content">
+                                    <h5>100 GB+ Storage</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-image-tag2">
+                            <div class="about-image-tag">
+                                <div class="about-image-iconbox">
+                                    <i class="fa-solid fa-users"></i>
+                                </div>
+                                <div class="about-image-tag-content">
+                                    <h5>500K+ Daily Visitors</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__container-text">
+                    <div class="about__container-text-inner">
+                        <div class="about__text">
+                            <div class="about__text-main">
+                                <h3>About Hostdec</h3>
+                            </div>
+                        </div>
+                        <div class="about__title">
+                            <h2 class="about__title-main">The Perfect Digital Connection</h2>
+                        </div>
+                        <div class="about__para">
+                            <p class="about__para-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nunc a dui id metus
+                                elementum rutrum. Quisque et imperdiet ipsum.</p>
+                        </div>
+                        <div class="about__container-text-container-tags">
+                            <div class="about__container-text-container-tags-main">
+                                <div class="about-text-group">
+                                    <div class="tag-group-container">
+                                        <div class="group-tag">
+                                            <div class="group-tag-title">
+                                                <h3>Faster Process</h3>
+                                            </div>
+                                            <div class="group-tag-content">
+                                                <p>Nunc et cursus nibh. Morbi eget eros odio. Etiam nec enim ut enim.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="group-tag">
+                                            <div class="group-tag-title">
+                                                <h3>Faster Access</h3>
+                                            </div>
+                                            <div class="group-tag-content">
+                                                <p>Sed condimentum elit in diam viverr venenatis. Nunc varius.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tag-group-container">
+                                        <div class="group-tag">
+                                            <div class="group-tag-title">
+                                                <h3>Faster Delivery</h3>
+                                            </div>
+                                            <div class="group-tag-content">
+                                                <p>Cras nec posuere leo. Donec vitae maximus ante. Integer gravida.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="group-tag">
+                                            <div class="group-tag-title">
+                                                <h3>24/7 Full Support</h3>
+                                            </div>
+                                            <div class="group-tag-content">
+                                                <p>Ut non augue nec justo condi mentum pretium at a ligula.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="about__text-button">
+                            <a href="#" class="about__button btn">
+                                Discover More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Capabilities-->
+        <section class="capabilities">
+            <div class="capabilities__container">
+                <div class="capabilities__tags">
+                    <div class="capabilities__tags-container">
+                        <div class="capabilities__tags-container-iconbox icon-box">
+                            <i class="fa-brands fa-wordpress-simple"></i>
+                        </div>
+                        <div class="capabilities__tags-container-content">
+                            <h5>Wordpress</h5>
+                        </div>
+                    </div>
+                    <div class="capabilities__tags-container">
+                        <div class="capabilities__tags-container-iconbox icon-box">
+                            <i class="fa-brands fa-magento"></i>
+                        </div>
+                        <div class="capabilities__tags-container-content">
+                            <h5>Magento</h5>
+                        </div>
+                    </div>
+                    <div class="capabilities__tags-container">
+                        <div class="capabilities__tags-container-iconbox icon-box">
+                            <i class="fa-brands fa-laravel"></i>
+                        </div>
+                        <div class="capabilities__tags-container-content">
+                            <h5>Laravel</h5>
+                        </div>
+                    </div>
+                    <div class="capabilities__tags-container">
+                        <div class="capabilities__tags-container-iconbox icon-box">
+                            <i class="fa-brands fa-php"></i>
+                        </div>
+                        <div class="capabilities__tags-container-content">
+                            <h5>Php</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="capabilities__content">
+                    <div class="capabilities__content-container">
+                        <div class="capabilities__text">
+                            <div class="capabilities__text-main">
+                                <p>Our Capabilities</p>
+                            </div>
+                        </div>
+                        <div class="capabilities__title">
+                            <h2 class="capabilities__title-main">From Skyline to the Shoreline, We Are There</h2>
+                        </div>
+                        <div class="capabilities__para">
+                            <p class="capabilities__para-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nunc a dui id metus elementum rutrum. Quisque et imperdiet ipsum. Nunc molestie nunc ac
+                                augue sodales luctus.</p>
+                        </div>
+                        <div class="capabilities__content-list">
+                            <div class="capabilities__content-lists">
+                                <div class="capabilities__content-lists-container">
+                                    <ul>
+                                        <li><i class="fa-solid fa-check"></i> Unlimited Bandwidth</li>
+                                        <li><i class="fa-solid fa-check"></i> Super Turbo Power</li>
+                                    </ul>
+                                </div>
+                                <div class="capabilities__content-lists-container">
+                                    <ul>
+                                        <li><i class="fa-solid fa-check"></i> Unlimited Site</li>
+                                        <li><i class="fa-solid fa-check"></i> 24/7 Full Support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="capabilities__content-button">
+                            <a href="#" class="capabilities__button btn">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Clients Auto Slider-->
+        <section class="clients">
+            <div class="clients__container">
+                <div class="clients__container-wrap">
+                    <div class="clients__container-title">
+                        <h3 class="clients-title">Trusted by 2500+ Company Worldwide</h3>
+                    </div>
+                    <div id="slider-1" class="clients__container-slider owl-carousel">
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (1).png" alt="client #1">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (2).png" alt="client #2">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (3).png" alt="client #3">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (4).png" alt="client #4">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (5).png" alt="client #5">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (6).png" alt="client #6">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (7).png" alt="client #7">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-width-fixer">
+            <div class="footer-container">
+                <div class="newsletter">
+                    <div class="newsletter-container">
+                        <div class="newsletter-container-main">
+                            <div class="newsletter-container-bg"></div>
+                            <div class="newsletter-main">
+                                <div class="newsletter-wrapper">
+                                    <div class="newsletter-title-one">
+                                        <div class="newsletter-title-one-main">
+                                            <p>Newsletter</p>
+                                        </div>
+                                    </div>
+                                    <div class="newsletter-title-two">
+                                        <div class="newsletter-title-two-main">
+                                            <h2 class="newsletter-heading">Subscribe to our Newsletter</h2>
+                                        </div>
+                                    </div>
+                                    <div class="newsletter-email">
+                                        <div class="newsletter-email-main-container">
+                                            <div class="newsletter-email-main">
+                                                <form class="newsletter-form" action="#" method="POST">
+                                                    <div class="form-field-container">
+                                                        <div class="form-field-container-main">
+                                                            <label for="email" class="newsletter-label">Email<span
+                                                                    class="required-label">*</span></label>
+
+                                                            <input type="email" id="email" name="email"
+                                                                class="newsletter-input" placeholder="Your Email"
+                                                                required>
+                                                            <label class="form-error">This field is required</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="newsletter-btn">
+                                                        <button type="submit"
+                                                            class="newsletter-button btn">Subscribe</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-main">
+                    <div class="footer-main-container">
+                        <div class="footer-content">
+                            <div class="footer-content-top">
+                                <div class="footer-content-top-container">
+                                    <div class="footer-content-top-main">
+                                        <div class="footer-main-container">
+                                            <div class="footer-main-logo">
+                                                <div class="footer-main-logo-main">
+                                                    <img src="/images/logo.png" alt="logo">
+                                                </div>
+                                            </div>
+                                            <div class="footer-main-content">
+                                                <div class="footer-main-content-main">
+                                                    <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Nullam
+                                                        in nibh vehicula.</p>
+                                                </div>
+                                            </div>
+                                            <div class="footer-logos">
+                                                <div class="footer-logos-container">
+                                                    <div class="footer-icon-wrapper">
+                                                        <span class="footer-icon fb"><a href="#"><i
+                                                                    class="fa-brands fa-facebook"></i></a></span>
+                                                        <span class="footer-icon twt"><a href="#"><i
+                                                                    class="fa-brands fa-twitter"></i></a></span>
+                                                        <span class="footer-icon yt"><a href="#"><i
+                                                                    class="fa-brands fa-youtube"></i></a></span>
+                                                        <span class="footer-icon lnd"><a href="#"><i
+                                                                    class="fa-brands fa-linkedin-in"></i></a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-content-top-list getintouch">
+                                        <div class="footer-content-top-list-main">
+                                            <div class="footer-content-heading">
+                                                <h4 class="footer-content-heading-main">Get In Touch</h4>
+                                            </div>
+                                            <div class="footer-content-address">
+                                                <div class="footer-content-address-main">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true"
+                                                                    class="fas fa-map-marker-alt"></i>457 Morningview
+                                                                Lane, NY </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="footer-content-email">
+                                                <div class="footer-content-email-main">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true"
+                                                                    class="fas fa-envelope"></i>email@example.com</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="footer-content-phone">
+                                                <div class="footer-content-phone-main">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true"
+                                                                    class="fas fa-phone"></i>+1 (234) 567 890</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="footer-content-timings">
+                                                <div class="footer-content-timings-main">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true"
+                                                                    class="fas fa-clock"></i>07.00 AM - 19.00 PM</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-content-top-list quklst">
+                                        <div class="footer-content-top-list-main">
+                                            <div class="footer-content-heading">
+                                                <h4 class="footer-content-heading-main">Quicklinks</h4>
+                                            </div>
+                                            <div class="footer-content-list">
+                                                <div class="footer-content-list-main">
+                                                    <div class="footer-content-list-container">
+                                                        <ul>
+                                                            <li><a href="index.html">Home</a></li>
+                                                            <li><a href="about.html">About</a></li>
+                                                            <li><a href="#">Team</a></li>
+                                                            <li><a href="#">Pricing</a></li>
+                                                            <li><a href="#">Blog</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-content-top-list spt">
+                                        <div class="footer-content-top-list-main">
+                                            <div class="footer-content-heading">
+                                                <h4 class="footer-content-heading-main">Support</h4>
+                                            </div>
+                                            <div class="footer-content-list">
+                                                <div class="footer-content-list-main">
+                                                    <div class="footer-content-list-container">
+                                                        <ul>
+                                                            <li><a href="#">Help Center</a></li>
+                                                            <li><a href="#">Career</a></li>
+                                                            <li><a href="#">FAQs</a></li>
+                                                            <li><a href="#">Privacy Policy</a></li>
+                                                            <li><a href="#">Contact</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-content-bottom">
+                                <div class="footer-content-bottom-main">
+                                    <div class="footer-content-bottom-main-inner-one">
+                                        <div class="footer-content-bottom-text">
+                                            <div class="footer-content-bottom-text-main">
+                                                <p>Copyright © 2024 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-content-bottom-main-inner-two">
+                                        <div class="footer-content-bottom-container">
+                                            <div class="footer-content-bottom-inner">
+                                                <div class="privacy-policy">
+                                                    <a href="#"><span>Privacy Policy</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="footer-content-bottom-inner">
+                                                <div class="terms-service">
+                                                    <a href="#"><span>Terms & Services</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script></script>
+</body>
+
+
+</html>

@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostdec | Web Hosting made easier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="navbar__container container">
+            <div class="navbar__logo">
+                <a href=""><img src="/images/logo.png" alt="Hostdec"></a>
+            </div>
+            <div class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <li class="navbar__menu-item">
+                        <a href="index.html" class="navbar__menu-link home">Home</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="about.html" class="navbar__menu-link">About</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link">Services <i class="fa-solid fa-chevron-down fa-s"></i></a>
+                        <ul class="navbar__submenu">
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Services</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Service Details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link">Pages <i class="fa-solid fa-chevron-down fa-s"></i></a>
+                        <ul class="navbar__submenu">
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">FAQs</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Pricing</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Team</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Testimonials</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Blog</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">Single Post</a>
+                            </li>
+                            <li class="navbar__submenu-item">
+                                <a href="#" class="navbar__submenu-link">404 Page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__btn">
+                <button class="navbar__btn-contactUs btn">Contact Us</button>
+            </div>
+            <!-- Mobile Menu & Hamburger Icon -->
+            <div class="navbar__mobile-menu">
+                <div class="navbar__mobile-menu-toggle">
+                    <i class="fas fa-bars fa-2x"></i>
+                </div>
+                <div class="navbar__mobile-overlay"></div>
+                <div class="navbar__mobile-menu-items">
+                    <div class="navbar__mobile-menu-logo"><img src="/images/logo.png
+                        " alt="Hostdec">
+                        <div class="navbar__close-btn">
+                            <i class="fa-solid fa-xmark fa-s"></i>
+                        </div>
+                    </div>
+                    <ul class="navbar__mobile-menu-list">
+                        <li class="navbar__mobile-menu-item">
+                            <a href="index.html" class="navbar__menu-link">Home</a>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#" class="navbar__menu-link">About</a>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#" class="navbar__menu-link">Services <i
+                                    class="fa-solid fa-chevron-down fa-s"></i></a>
+                            <ul class="navbar__submenu">
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Services</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Service Details</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#" class="navbar__menu-link">Pages <i
+                                    class="fa-solid fa-chevron-down fa-s"></i></a>
+                            <ul class="navbar__submenu">
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">FAQs</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Pricing</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Team</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Testimonials</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Blog</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">Single Post</a>
+                                </li>
+                                <li class="navbar__submenu-item">
+                                    <a href="#" class="navbar__submenu-link">404 Page</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#" class="navbar__menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="fullpage">
+        <!-- Hero -->
+        <header class="hero">
+            <div class="hero__container container">
+                <div class="hero__text-container">
+                    <p class="hero__welcome">Welcome to Hostdec</p>
+                    <h1 class="hero__title">
+                        Smart Company With Perfect Web Space
+                    </h1>
+                    <div class="hero__description-container">
+                        <p class="hero__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a dui id metus elementum
+                            rutrum.
+                            Praesent sed nisl et lectus ornare placerat ut tristique urna.
+                        </p>
+                    </div>
+                    <div class="hero__buttons">
+                        <a href="#" class="hero__button btn get">
+                            Get Started
+                        </a>
+                        <a href="#" class="hero__button btn">
+                            Hosting Plans
+                        </a>
+                    </div>
+                    <div class="hero__numbers">
+                        <div class="hero__numbers-container">
+                            <div class="hero__number-wrapper">
+                                <span class="hero__number-reviews">916</span>
+                                <span class="hero__number-plus">+</span>
+                            </div>
+                            <h3 class="hero__numbers-title">Positive Reviews</h3>
+                        </div>
+                        <div class="hero__numbers-container">
+                            <div class="hero__number-wrapper">
+                                <span class="hero__number-hostings">570</span>
+                                <span class="hero__number-plus">+</span>
+                            </div>
+                            <h3 class="hero__numbers-title">Active Hostings</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image-container">
+                    <img class="hero__image main-image"
+                        src="./images/cheerful-african-american-male-student-using-laptop.png" alt="Hostdec" />
+                    <img class="hero__image bg-image" src="./images/bgcircle.png" alt="bgcircle" />
+                    <div class="hero__image-tags">
+                        <div class="hero__image-tag-container">
+                            <div class="hero__image-tags-wrapper">
+                                <div class="hero__image-tags-bg">
+                                    <div class="hero__image-tags-icon">
+                                        <div class="icon-box">
+                                            <span><i class="fa-solid fa-wifi"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="hero__image-tags-content">
+                                        <h3 class="hero__image-tags-content-title">Powerful Servers</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__image-tag-container">
+                            <div class="hero__image-tags-block">
+                                <div class="hero__image-tags-wrapper">
+                                    <div class="hero__image-tags-icon">
+                                        <div class="icon-box">
+                                            <span><i class="fas fa-shield-alt" aria-hidden="true"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="hero__image-tags-content">
+                                        <h3 class="hero__image-tags-content-title">Premium SSL</h3>
+                                        <p>Aliquam sodales porttitor turpis, dignissim aliq. </p>
+                                    </div>
+                                </div>
+                                <div class="hero__image-tags-wrapper">
+                                    <div class="hero__image-tags-icon">
+                                        <div class="icon-box">
+                                            <span><i class="fas fa-headset" aria-hidden="true"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="hero__image-tags-content">
+                                        <h3 class="hero__image-tags-content-title">24/7 Support</h3>
+                                        <p>Aenean vel mauris eget erat sollicitudin. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--Clients Auto Slider-->
+        <section class="clients">
+            <div class="clients__container">
+                <div class="clients__container-wrap">
+                    <div class="clients__container-title">
+                        <h3 class="clients-title">Trusted by 2500+ Company Worldwide</h3>
+                    </div>
+                    <div id="slider-1" class="clients__container-slider owl-carousel">
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (1).png" alt="client #1">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (2).png" alt="client #2">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (3).png" alt="client #3">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (4).png" alt="client #4">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (5).png" alt="client #5">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (6).png" alt="client #6">
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <div class="content-image">
+                                <img src="/images/client_ (7).png" alt="client #7">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--About-->
+        <section class="About">
+            <div class="about__container">
+                <div class="about__container-image">
+                    <div class="about-image-bg">
+                        <div class="about-image-main">
+                            <img class="about-image-bg-main"
+                                src="/images/emotional-arab-guy-using-new-modern-laptop.png" alt="Guy jumping">
+                            <img class="about-image-bg-bg" src="/images/bgcircle.png" alt="bg-circle">
+                        </div>
+                        <div class="about-image-tag1">
+                            <div class="about-image-tag">
+                                <div class="about-image-iconbox">
+                                    <i class="fa-solid fa-database"></i>
+                                </div>
+                                <div class="about-image-tag-content">
+                                    <h5>100 GB+ Storage</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-image-tag2">
+                            <div class="about-image-tag">
+                                <div class="about-image-iconbox">
+                                    <i class="fa-solid fa-users"></i>
+                                </div>
+                                <div class="about-image-tag-content">
+                                    <h5>500K+ Daily Visitors</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__container-text">
+                    <div class="about__container-text-inner">
+                        <div class="about__text">
+                            <div class="about__text-main">
+                                <h3>About Hostdec</h3>
+                            </div>
+                        </div>
+                        <div class="about__title">
+                            <h2 class="about__title-main">The Perfect Digital Connection</h2>
+                        </div>
+                        <div class="about__para">
+                            <p class="about__para-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nunc a dui id metus
+                                elementum rutrum. Quisque et imperdiet ipsum.</p>
+                        </div>
+                        <div class="about__container-text-container-tags">
+                            <div class="about__container-text-container-tags-main">
+                                <div class="about-text-group">
+                                    <div class="tag-group-container">
+                                        <div class="group-tag">
+                                            <div class="group-tag-title">
+                                                <h3>Faster Process</h3>
+                                            </div>
+                                            <div class="group-tag-content">
+                                                <p>Nunc et cursus nibh. Morbi eget eros odio. Etiam nec enim ut enim.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="group-tag">
+                                            <div class="group-tag-title">
+                                                <h3>Faster Access</h3>
+                                            </div>
+                                            <div class="group-tag-content">
+                                                <p>Sed condimentum elit in diam viverr venenatis. Nunc varius.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tag-group-container">
+                                        <div class="group-tag">
+                                            <div class="group-tag-title">
+                                                <h3>Faster Delivery</h3>
+                                            </div>
+                                            <div class="group-tag-content">
+                                                <p>Cras nec posuere leo. Donec vitae maximus ante. Integer gravida.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="group-tag">
+                                            <div class="group-tag-title">
+                                                <h3>24/7 Full Support</h3>
+                                            </div>
+                                            <div class="group-tag-content">
+                                                <p>Ut non augue nec justo condi mentum pretium at a ligula.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="about__text-button">
+                            <a href="#" class="about__button btn">
+                                Discover More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Pricing Plan-->
+        <section class="pricingplan">
+            <div class="pricingplan__container">
+                <div class="pricingplan__title-container">
+                    <div class="pricingplan__title-bg">
+                        <p>Pricing Plan</p>
+                    </div>
+                    <div class="pricingplan__title-main">
+                        <h2>Hosting With Freedom Built-In</h2>
+                    </div>
+                </div>
+                <div class="pricingplan__pricecard-container">
+                    <div class="pricing-card">
+                        <div class="card-wrapper">
+                            <div class="card-header">
+                                <span class="icon-box"><i class="fa-solid fa-cloud"></i></span>
+                                <h3>Cloud Hosting</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i> 100 Websites</li>
+                                    <li><i class="fa-solid fa-check"></i> 90 GB SSD Storage</li>
+                                    <li><i class="fa-solid fa-check"></i> 4 GB RAM</li>
+                                    <li><i class="fa-solid fa-check"></i> Free Premium SSL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <h2>$10.2</h2>
+                            <span>/month</span>
+                        </div>
+                        <div class="pricingplan__card button">
+                            <a href="#" class="pricecard__button btn">
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="card-wrapper">
+                            <div class="card-header">
+                                <span class="icon-box"><i aria-hidden="true" class="fas fa-building"></i></span>
+                                <h3>Corporate</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i> 100 Websites</li>
+                                    <li><i class="fa-solid fa-check"></i> 90 GB SSD Storage</li>
+                                    <li><i class="fa-solid fa-check"></i> 4 GB RAM</li>
+                                    <li><i class="fa-solid fa-check"></i> Free Premium SSL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <h2>$20.0</h2>
+                            <span>/month</span>
+                        </div>
+                        <div class="pricingplan__card button">
+                            <a href="#" class="pricecard__button btn">
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="card-wrapper">
+                            <div class="card-header">
+                                <span class="icon-box"><i class="fa-solid fa-database"></i></span>
+                                <h3>Cloud VPS</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i> 100 Websites</li>
+                                    <li><i class="fa-solid fa-check"></i> 90 GB SSD Storage</li>
+                                    <li><i class="fa-solid fa-check"></i> 4 GB RAM</li>
+                                    <li><i class="fa-solid fa-check"></i> Free Premium SSL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <h2>$32.0</h2>
+                            <span>/month</span>
+                        </div>
+                        <div class="pricingplan__card button">
+                            <a href="#" class="pricecard__button btn">
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="card-wrapper">
+                            <div class="card-header">
+                                <span class="icon-box"><i class="fa-solid fa-house-laptop"></i></span>
+                                <h3>Dedicated</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+                            </div>
+                            <div class="card-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i> 100 Websites</li>
+                                    <li><i class="fa-solid fa-check"></i> 90 GB SSD Storage</li>
+                                    <li><i class="fa-solid fa-check"></i> 4 GB RAM</li>
+                                    <li><i class="fa-solid fa-check"></i> Free Premium SSL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <h2>$44.2</h2>
+                            <span>/month</span>
+                        </div>
+                        <div class="pricingplan__card button">
+                            <a href="#" class="pricecard__button btn">
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Capabilities-->
+        <section class="capabilities">
+            <div class="capabilities__container">
+                <div class="capabilities__tags">
+                    <div class="capabilities__tags-container">
+                        <div class="capabilities__tags-container-iconbox icon-box">
+                            <i class="fa-brands fa-wordpress-simple"></i>
+                        </div>
+                        <div class="capabilities__tags-container-content">
+                            <h5>Wordpress</h5>
+                        </div>
+                    </div>
+                    <div class="capabilities__tags-container">
+                        <div class="capabilities__tags-container-iconbox icon-box">
+                            <i class="fa-brands fa-magento"></i>
+                        </div>
+                        <div class="capabilities__tags-container-content">
+                            <h5>Magento</h5>
+                        </div>
+                    </div>
+                    <div class="capabilities__tags-container">
+                        <div class="capabilities__tags-container-iconbox icon-box">
+                            <i class="fa-brands fa-laravel"></i>
+                        </div>
+                        <div class="capabilities__tags-container-content">
+                            <h5>Laravel</h5>
+                        </div>
+                    </div>
+                    <div class="capabilities__tags-container">
+                        <div class="capabilities__tags-container-iconbox icon-box">
+                            <i class="fa-brands fa-php"></i>
+                        </div>
+                        <div class="capabilities__tags-container-content">
+                            <h5>Php</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="capabilities__content">
+                    <div class="capabilities__content-container">
+                        <div class="capabilities__text">
+                            <div class="capabilities__text-main">
+                                <p>Our Capabilities</p>
+                            </div>
+                        </div>
+                        <div class="capabilities__title">
+                            <h2 class="capabilities__title-main">From Skyline to the Shoreline, We Are There</h2>
+                        </div>
+                        <div class="capabilities__para">
+                            <p class="capabilities__para-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nunc a dui id metus elementum rutrum. Quisque et imperdiet ipsum. Nunc molestie nunc ac
+                                augue sodales luctus.</p>
+                        </div>
+                        <div class="capabilities__content-list">
+                            <div class="capabilities__content-lists">
+                                <div class="capabilities__content-lists-container">
+                                    <ul>
+                                        <li><i class="fa-solid fa-check"></i> Unlimited Bandwidth</li>
+                                        <li><i class="fa-solid fa-check"></i> Super Turbo Power</li>
+                                    </ul>
+                                </div>
+                                <div class="capabilities__content-lists-container">
+                                    <ul>
+                                        <li><i class="fa-solid fa-check"></i> Unlimited Site</li>
+                                        <li><i class="fa-solid fa-check"></i> 24/7 Full Support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="capabilities__content-button">
+                            <a href="#" class="capabilities__button btn">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Map-->
+        <section class="map">
+            <div class="map__container">
+                <div class="map__title">
+                    <div class="map__title-bg">
+                        <p>Servers Worldwide</p>
+                    </div>
+                    <div class="map__title-main">
+                        <h2>Luxurious, Grand, Spacious, </h2>
+                        <h2>Always Uptime</h2>
+                    </div>
+                </div>
+                <div class="map__main">
+                    <div class="map__main-people">
+                        <div class="map__main-person">
+                            <div class="map__main-person1">
+                                <div class="map__main-p">
+                                    <img src="/images/portrait-of-happy-couple.jpg" alt="person1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map__main-person">
+                            <div class="map__main-person2">
+                                <div class="map__main-p">
+                                    <img src="/images/portrait-EXE2HSZ.jpg" alt="person2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map__main-person">
+                            <div class="map__main-person3">
+                                <div class="map__main-p">
+                                    <img src="/images/portrait-2DSNNU3.jpg" alt="person3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map__main-person">
+                            <div class="map__main-person4">
+                                <div class="map__main-p">
+                                    <img src="/images/portrait-CXVLFCC.jpg" alt="person4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Testimonials-->
+        <section class="testimonials">
+            <div class="testimonials__container">
+                <div class="testimonials__title-container">
+                    <div class="testimonials__title">
+                        <div class="testimonials__title-bg">
+                            <p>Testimonials</p>
+                        </div>
+                        <div class="testimonials__title-main">
+                            <h2>What Customers Say </h2>
+                            <h2>About Us</h2>
+                        </div>
+                    </div>
+                    <div class="testimonials__title-button">
+                        <div class="testimonails__button-main">
+                            <a href="#" class="testimonials__button btn">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials__main">
+                    <div class="testimonials__main-container">
+                        <div class="testimonials__main-video">
+                            <div class="testimonials__main-video-container">
+                                <div class="testimonials__video-content">
+                                    <a href="#" class="testimonials-video"><i class="fa-solid fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="slider-2" class="testimonials__container-slider owl-carousel">
+                            <div class="testimonails__slide-card">
+                                <div class="testimonails-ratings">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="testimonials-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                                        laboriosam! Ullam hic molestiae accusamus similique rem, quos
+                                        possimus dolores?
+                                    </p>
+                                </div>
+                                <div class="testimonials-person-info">
+                                    <div class="person-info-container">
+                                        <div class="person-pic">
+                                            <img src="/images/portrait-2DSNNU3.jpg" alt="person1">
+                                        </div>
+                                        <div class="person-info">
+                                            <span class="person-name">Ruth Stephanie</span>
+                                            <span class="person-job">Entrepreneur</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonails__slide-card">
+                                <div class="testimonails-ratings">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="testimonials-content">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+                                        laudantium provident molestias iusto excepturi odit obcaecati est
+                                        doloremque dignissimos?</p>
+                                </div>
+                                <div class="testimonials-person-info">
+                                    <div class="person-info-container">
+                                        <div class="person-pic">
+                                            <img src="/images/portrait-of-happy-couple.jpg" alt="person2">
+                                        </div>
+                                        <div class="person-info">
+                                            <span class="person-name">James Smith</span>
+                                            <span class="person-job">Web Developer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonails__slide-card">
+                                <div class="testimonails-ratings">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="testimonials-content">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
+                                        facere harum velit quae incidunt! Expedita magnam quo quaerat. Quis.
+                                    </p>
+                                </div>
+                                <div class="testimonials-person-info">
+                                    <div class="person-info-container">
+                                        <div class="person-pic">
+                                            <img src="/images/portrait-EXE2HSZ.jpg" alt="person3">
+                                        </div>
+                                        <div class="person-info">
+                                            <span class="person-name">Lina Marks</span>
+                                            <span class="person-job">Company CEO</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonails__slide-card">
+                                <div class="testimonails-ratings">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="testimonials-content">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
+                                        similique optio, necessitatibus ipsam maxime at consequuntur
+                                        debitis. Delectus, fuga?</p>
+                                </div>
+                                <div class="testimonials-person-info">
+                                    <div class="person-info-container">
+                                        <div class="person-pic">
+                                            <img src="/images/portrait-CXVLFCC.jpg" alt="person4">
+                                        </div>
+                                        <div class="person-info">
+                                            <span class="person-name">Timmy Brown</span>
+                                            <span class="person-job">Web Designer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Let's Start-->
+        <section class="start">
+            <div class="start__container">
+                <div class="start__container-content">
+                    <div class="start-content">
+                        <div class="start-content__start">
+                            <p class="start-content__start-main">Get Started</p>
+                        </div>
+                        <div class="start-content__title">
+                            <h2 class="start-content__title-main">
+                                Let's Start Here! New Space for World
+                            </h2>
+                        </div>
+                        <div class="start-content__description">
+                            <p class="start-content__description-main">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a dui id metus elementum
+                                rutrum. Quisque et imperdiet ipsum.
+                            </p>
+                        </div>
+                        <div class="start-content__buttons">
+                            <a href="#" class="start-content__button btn get">
+                                Get Started
+                            </a>
+                            <a href="#" class="start-content__button btn">
+                                Hosting Plans
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="start__container-hero">
+                    <div class="start-hero">
+                        <div class="start-hero__bg"></div>
+                        <div class="start-hero__lists">
+                            <div class="start-lists">
+                                <ul>
+                                    <li><span class="start-lists__check"><i class="fa-solid fa-check"></i></span><span
+                                            class="start-lists__text">Unlimited Bandwidth</span></li>
+                                    <li><span class="start-lists__check"><i class="fa-solid fa-check"></i></span><span
+                                            class="start-lists__text">Super Turno Power</span></li>
+                                    <li><span class="start-lists__check"><i class="fa-solid fa-check"></i></span><span
+                                            class="start-lists__text">24/7 Support</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="start-hero__main">
+                            <div class="start-hero__main-container">
+                                <img src="/images/happy-black-man-pointing-at-digital-tablet-screen.png"
+                                    alt="Man pointing at tablet">
+                            </div>
+                        </div>
+                        <div class="start-hero__tag">
+                            <div class="tag-container">
+                                <div class="tag-wrap">
+                                    <div class="start-tag">
+                                        <div class="start-tag-wrapper">
+                                            <span class="start-number">15</span>
+                                            <span class="start-plus">+</span>
+                                        </div>
+                                        <div class="start-tag-content">
+                                            <p>Years Experience</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Blog & News-->
+        <section class="blog">
+            <div class="blog__container">
+                <div class="blog__container-main">
+                    <div class="blog-title-one">
+                        <div class="blog__title-one-main">
+                            <p>Blog & News</p>
+                        </div>
+                    </div>
+                    <div class="blog-title-two">
+                        <div class="blog-title-two-main">
+                            <h2>Latest Posts & News</h2>
+                        </div>
+                    </div>
+                    <div class="blog-main">
+                        <div class="blog-main-container">
+                            <div class="blog-card-container">
+                                <div class="blog-card">
+                                    <div class="card-container">
+                                        <div class="card-hero">
+                                            <a class="card-hero-main" href="#">
+                                                <img src="/images/team-of-specialists-managing-network-server-LMDFX24-1024x683.jpg"
+                                                    alt="team-of-specialists-managing-network-server">
+                                            </a>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="card-date"><span class="date-text">April 14, 2024</span></div>
+                                            <h2 class="card-title">
+                                                <a href="#">Twitter announces it's been developing an
+                                                    edit features
+                                                </a>
+                                            </h2>
+                                            <div class="card-btn">
+                                                <a href="#" class="card-content__button btn">
+                                                    Read more
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-container">
+                                        <div class="card-hero">
+                                            <a class="card-hero-main" href="#">
+                                                <img src="/images/programmer-working-with-program-code-W4GEJAB-1024x683.jpg"
+                                                    alt="programmer-working-with-program-code">
+                                            </a>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="card-date"><span class="date-text">April 14, 2024</span></div>
+                                            <h2 class="card-title">
+                                                <a href="#">Pinterest ban miss information about climate change
+                                                </a>
+                                            </h2>
+                                            <div class="card-btn">
+                                                <a href="#" class="card-content__button btn">
+                                                    Read more
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-container">
+                                        <div class="card-hero">
+                                            <a class="card-hero-main" href="#">
+                                                <img src="/images/programmers-working-at-the-office-7XDY5KM-1024x683.jpg"
+                                                    alt="programmers-working-at-the-office">
+                                            </a>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="card-date"><span class="date-text">April 14, 2024</span></div>
+                                            <h2 class="card-title">
+                                                <a href="#">Google lets you search by combining images and words
+                                                </a>
+                                            </h2>
+                                            <div class="card-btn">
+                                                <a href="#" class="card-content__button btn">
+                                                    Read more
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-width-fixer">
+            <div class="footer-container">
+                <div class="newsletter">
+                    <div class="newsletter-container">
+                        <div class="newsletter-container-main">
+                            <div class="newsletter-container-bg"></div>
+                            <div class="newsletter-main">
+                                <div class="newsletter-wrapper">
+                                    <div class="newsletter-title-one">
+                                        <div class="newsletter-title-one-main">
+                                            <p>Newsletter</p>
+                                        </div>
+                                    </div>
+                                    <div class="newsletter-title-two">
+                                        <div class="newsletter-title-two-main">
+                                            <h2 class="newsletter-heading">Subscribe to our Newsletter</h2>
+                                        </div>
+                                    </div>
+                                    <div class="newsletter-email">
+                                        <div class="newsletter-email-main-container">
+                                            <div class="newsletter-email-main">
+                                                <form class="newsletter-form" action="#" method="POST">
+                                                    <div class="form-field-container">
+                                                        <div class="form-field-container-main">
+                                                            <label for="email" class="newsletter-label">Email<span
+                                                                    class="required-label">*</span></label>
+
+                                                            <input type="email" id="email" name="email"
+                                                                class="newsletter-input" placeholder="Your Email"
+                                                                required>
+                                                            <label class="form-error">This field is required</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="newsletter-btn">
+                                                        <button type="submit"
+                                                            class="newsletter-button btn">Subscribe</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-main">
+                    <div class="footer-main-container">
+                        <div class="footer-content">
+                            <div class="footer-content-top">
+                                <div class="footer-content-top-container">
+                                    <div class="footer-content-top-main">
+                                        <div class="footer-main-container">
+                                            <div class="footer-main-logo">
+                                                <div class="footer-main-logo-main">
+                                                    <img src="/images/logo.png" alt="logo">
+                                                </div>
+                                            </div>
+                                            <div class="footer-main-content">
+                                                <div class="footer-main-content-main">
+                                                    <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Nullam
+                                                        in nibh vehicula.</p>
+                                                </div>
+                                            </div>
+                                            <div class="footer-logos">
+                                                <div class="footer-logos-container">
+                                                    <div class="footer-icon-wrapper">
+                                                        <span class="footer-icon fb"><a href="#"><i
+                                                                    class="fa-brands fa-facebook"></i></a></span>
+                                                        <span class="footer-icon twt"><a href="#"><i
+                                                                    class="fa-brands fa-twitter"></i></a></span>
+                                                        <span class="footer-icon yt"><a href="#"><i
+                                                                    class="fa-brands fa-youtube"></i></a></span>
+                                                        <span class="footer-icon lnd"><a href="#"><i
+                                                                    class="fa-brands fa-linkedin-in"></i></a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-content-top-list getintouch">
+                                        <div class="footer-content-top-list-main">
+                                            <div class="footer-content-heading">
+                                                <h4 class="footer-content-heading-main">Get In Touch</h4>
+                                            </div>
+                                            <div class="footer-content-address">
+                                                <div class="footer-content-address-main">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true"
+                                                                    class="fas fa-map-marker-alt"></i>457 Morningview
+                                                                Lane, NY </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="footer-content-email">
+                                                <div class="footer-content-email-main">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true"
+                                                                    class="fas fa-envelope"></i>email@example.com</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="footer-content-phone">
+                                                <div class="footer-content-phone-main">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true"
+                                                                    class="fas fa-phone"></i>+1 (234) 567 890</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="footer-content-timings">
+                                                <div class="footer-content-timings-main">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><i aria-hidden="true"
+                                                                    class="fas fa-clock"></i>07.00 AM - 19.00 PM</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-content-top-list quklst">
+                                        <div class="footer-content-top-list-main">
+                                            <div class="footer-content-heading">
+                                                <h4 class="footer-content-heading-main">Quicklinks</h4>
+                                            </div>
+                                            <div class="footer-content-list">
+                                                <div class="footer-content-list-main">
+                                                    <div class="footer-content-list-container">
+                                                        <ul>
+                                                            <li><a href="#">Home</a></li>
+                                                            <li><a href="#">About</a></li>
+                                                            <li><a href="#">Team</a></li>
+                                                            <li><a href="#">Pricing</a></li>
+                                                            <li><a href="#">Blog</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-content-top-list spt">
+                                        <div class="footer-content-top-list-main">
+                                            <div class="footer-content-heading">
+                                                <h4 class="footer-content-heading-main">Support</h4>
+                                            </div>
+                                            <div class="footer-content-list">
+                                                <div class="footer-content-list-main">
+                                                    <div class="footer-content-list-container">
+                                                        <ul>
+                                                            <li><a href="#">Help Center</a></li>
+                                                            <li><a href="#">Career</a></li>
+                                                            <li><a href="#">FAQs</a></li>
+                                                            <li><a href="#">Privacy Policy</a></li>
+                                                            <li><a href="#">Contact</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-content-bottom">
+                                <div class="footer-content-bottom-main">
+                                    <div class="footer-content-bottom-main-inner-one">
+                                        <div class="footer-content-bottom-text">
+                                            <div class="footer-content-bottom-text-main">
+                                                <p>Copyright © 2024 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-content-bottom-main-inner-two">
+                                        <div class="footer-content-bottom-container">
+                                            <div class="footer-content-bottom-inner">
+                                                <div class="privacy-policy">
+                                                    <a href="#"><span>Privacy Policy</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="footer-content-bottom-inner">
+                                                <div class="terms-service">
+                                                    <a href="#"><span>Terms & Services</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script></script>
+</body>
+
+
+</html>
