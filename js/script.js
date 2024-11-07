@@ -70,3 +70,51 @@ document.querySelector('.newsletter-form').addEventListener('submit', function (
         console.log('Form submitted'); // Placeholder for submission
     }
 });
+
+// to dynamically set the active link
+document.addEventListener('DOMContentLoaded', function () {
+    const currentLocation = window.location.href;
+    const menuItems = document.querySelectorAll('.navbar__menu-link');
+
+    menuItems.forEach(item => {
+        if (item.href === currentLocation) {
+            item.parentElement.classList.add('active');
+        }
+    });
+});
+
+//Contact form error handling
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const inputs = document.querySelectorAll('#contactForm input, #contactForm textarea');
+    let allValid = true;
+
+    inputs.forEach(input => {
+        const errorMessage = input.nextElementSibling;
+        if (input.value.trim() === '') {
+            errorMessage.classList.add('active');
+            allValid = false;
+        } else {
+            errorMessage.classList.remove('active');
+        }
+    });
+
+    if (allValid) {
+        // Here, add logic to send the form data, e.g., AJAX or form submission
+        alert("Form submitted successfully!");
+    }
+});
+
+//for the accordion
+document.querySelectorAll('.accordion__input').forEach(input => {
+    input.addEventListener('change', function () {
+        if (this.checked) {
+            document.querySelectorAll('.accordion__input').forEach(otherInput => {
+                if (otherInput !== this) {
+                    otherInput.checked = false;
+                }
+            });
+        }
+    });
+});
+
