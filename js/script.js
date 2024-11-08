@@ -20,6 +20,7 @@ menuToggle.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);
 overlay.addEventListener('click', closeMenu);
 
+//Slider1 carousel
 document.addEventListener("DOMContentLoaded", function () {
     $(document).ready(function () {
         $('#slider-1').owlCarousel({
@@ -35,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-
+//slider2 carousel
 document.addEventListener("DOMContentLoaded", function () {
     $(document).ready(function () {
         $('#slider-2').owlCarousel({
@@ -47,6 +48,23 @@ document.addEventListener("DOMContentLoaded", function () {
             autoplayHoverPause: true,
             smartSpeed: 600,
             nav: false,
+            dots: false
+        });
+    });
+});
+
+//Slider3
+document.addEventListener("DOMContentLoaded", function () {
+    $(document).ready(function () {
+        $('#slider-3').owlCarousel({
+            items: 2,
+            margin: 20,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            smartSpeed: 600,
+            nav: true,
             dots: false
         });
     });
