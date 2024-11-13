@@ -135,4 +135,3 @@ document.querySelectorAll('.accordion__input').forEach(input => {
         }
     });
 });
-

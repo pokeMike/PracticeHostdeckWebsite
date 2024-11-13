@@ -1528,7 +1528,7 @@ ul li ul.navbar__submenu:hover {
 
 
 .card-content {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 30px 20px;
 }
 
 .card-date {
@@ -2122,11 +2122,19 @@ ul li ul.navbar__submenu:hover {
     background-size: cover;
 }
 
-.webhosting {
+.webhosting,
+.support,
+.skillbar,
+.testimonialscardpage,
+.Blogpage-main {
     padding: 100px 0px 100px 0px;
 }
 
-.webhosting__container {
+.webhosting__container,
+.support__container,
+.support__content-container,
+.skillbar__container,
+.testimonialscardpage__main {
     max-width: 1200px;
     display: flex;
     margin-right: auto;
@@ -2160,11 +2168,14 @@ ul li ul.navbar__submenu:hover {
 .webshosting__content-hero,
 .webhosting__content-title-three,
 .webshosting__content-description-two,
-.webhosting__card-title {
+.webhosting__card-title,
+.skillbar-content__start,
+.skillbar-content__title {
     margin-bottom: 20px;
 }
 
-.webhosting__content-title-two h2 {
+.webhosting__content-title-two h2,
+.skillbar-content__title-main {
     font-size: 50px;
     font-weight: 600;
     line-height: 1.3em;
@@ -2383,6 +2394,269 @@ ul li ul.navbar__submenu:hover {
     position: absolute;
     top: 50%;
     right: 1%;
+}
+
+.FAQs-page {
+    background-image: url("/images/woman-sitting-on-sofa-relaxing-while-browsing-onli-5NY9LSV.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.support__title-one,
+.support__title-two {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.support__title-one-main p,
+.skillbar-content__start-main {
+    color: var(--primary-color);
+    font-family: "Syne", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.support__title-two-main {
+    margin: 0px 200px 50px 200px;
+}
+
+.support__title-two-main h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.support__content-box,
+.skillbar__container-content,
+.skillbar__container-hero {
+    width: 50%;
+}
+
+.support__content-box-main {
+    background-color: #1F1D2C;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #1F1D2C;
+    transition: all 0.3s;
+    padding: 50px 50px 50px 50px;
+}
+
+.support__content-box-main:hover {
+    border-color: var(--primary-color);
+}
+
+.firstbox,
+.faqs1staccordion {
+    margin: 0px 15px 0px 0px;
+}
+
+.secondbox,
+.faqs2ndaccordion {
+    margin: 0px 0px 0px 15px;
+}
+
+.support__content-box-title,
+.support__content-box-description,
+.support__content-box-button,
+.faqspagetitleone,
+.faqspagetitletwo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faqspage-title {
+    margin: 0px 200px 70px 200px;
+}
+
+.support__content-box-title-main h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.support__content-box-description-main p,
+.skillbar-content__description-main {
+    color: #C9C9C9;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.8em;
+}
+
+.support-box-button {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.support__content-box-button {
+    margin-top: 30px;
+}
+
+.support-box-button:hover {
+    color: #13171A;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.faqspg {
+    width: 100%;
+}
+
+.faqspageaccordion {
+    display: flex;
+}
+
+.pricing-page {
+    background-image: url("/images/young-lady-browsing-the-internet-at-the-cafe-TZJ9P2A.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.prcng {
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.prcngg,
+.skillbar-content {
+    padding: 0px 70px 0px 0px;
+    width: 100%;
+}
+
+.teamspage {
+    background-image: url("/images/applause-for-a-successful-team-BK8UFGL.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.skills {
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.skill {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill-name,
+.skill-bar-percentage-wrapper {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.skill-bar-content {
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.skill-bar {
+    background-color: #4d4d4d;
+    height: 3px;
+    border-radius: 0;
+}
+
+.skill-bar-track {
+    background-color: var(--primary-color);
+    border-radius: 0;
+    display: block;
+    height: 100%;
+    overflow: visible !important;
+    position: relative;
+    width: 0;
+    animation: fillBar 1.5s ease-in-out forwards;
+}
+
+.skill-bar-percentage-wrapper {
+    position: absolute;
+    right: 0;
+    top: -33px;
+    z-index: 1;
+}
+
+@keyframes fillBar {
+    to {
+        width: var(--final-width);
+    }
+}
+
+/* Set final width based on data-value attribute */
+.skill-bar-track[data-value="90%"] {
+    --final-width: 90%;
+}
+
+.skill-bar-track[data-value="95%"] {
+    --final-width: 95%;
+}
+
+.skill-bar-track[data-value="85%"] {
+    --final-width: 85%;
+}
+
+.skill-bar-track[data-value="99%"] {
+    --final-width: 99%;
+}
+
+.testimonailspage {
+    background-image: url("/images/it-professional-removing-server-drive-in-san-48GTMJV.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.Blogpage {
+    background-image: url("/images/web-developer-side-view-5B8FFDB.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.testimonailspagetitle {
+    text-align: center;
+    width: 100%;
+}
+
+.testimonialscardpage__main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.testimonialscardpage__card {
+    background-color: #1F1D2C;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #1f1d2c;
+    transition: all 0.3s;
+    margin: 15px;
+    padding: 20px 40px 20px 40px;
+}
+
+.testimonialscardpage__card:hover {
+    border-color: var(--primary-color);
+}
+
+.Blogpagegrid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 30px;
+    padding: 15px;
+}
+
+.Blogpage__container {
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.Blogpage__content-container {
+    width: 65%;
+}
+
+.Blogpage__cards {
+    width: 35%;
 }
 
 /*Footer*/
