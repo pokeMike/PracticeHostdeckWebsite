@@ -113,7 +113,7 @@ img {
 .navbar__menu-list {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 0rem;
     font-size: 14px;
     font-weight: 600;
 }
@@ -2780,12 +2780,13 @@ ul li ul.navbar__submenu:hover {
     border-style: solid;
     border-width: 0px 0px 0px 0px;
     border-radius: 0px 0px 0px 0px;
-    padding: 15px 260px 15px 30px;
+    padding: 15px 30px 15px 30px;
     color: #1F1D2C;
     font-family: "Lexend", sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.8em;
+    width: 100%;
 }
 
 .form-error {
@@ -2796,7 +2797,7 @@ ul li ul.navbar__submenu:hover {
 
 .newsletter-btn {
     position: absolute;
-    top: 70%;
+    top: 73%;
     right: 22%;
 }
 
@@ -2950,8 +2951,8 @@ ul li ul.navbar__submenu:hover {
 }
 
 .footer-content-list-container ul li a,
-.privacy-policy,
-.terms-service {
+.privacy-policy a,
+.terms-service a {
     color: #C9C9C9;
     font-family: "Lexend", sans-serif;
     font-size: 14px;
